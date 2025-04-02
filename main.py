@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 # Load environment variables from .env file
 load_dotenv()
 
-# Get the OpenWeatherMap API key from .env file
+# Get the OpenWeather API key from .env file
 API_KEY = os.getenv("openweather")
 # Cities for weather data... base on the front end version of this https://openweathermap.org/find.. maybe add an "error" when a valid country code is not found. 
 cities = ["Tokyo, JP", "Chicago, US", "Bremen, US", "London, UK"]
